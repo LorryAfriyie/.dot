@@ -1,0 +1,107 @@
+/* Fonts */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf"); }
+/*General Styles*/
+html {
+  scroll-behavior: smooth; }
+
+body {
+  overflow-x: hidden; }
+
+/*Navigation Menu*/
+#navigation-bar {
+  background-color: pink; }
+  #navigation-bar #nav-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #ffffff;
+    transition: 0.3s; }
+  #navigation-bar #nav-title:hover {
+    color: #6610f2;
+    transition: 0.3s; }
+  #navigation-bar #main-title {
+    transition: 0.3s; }
+  #navigation-bar #main-title:hover {
+    color: #6610f2;
+    transition: 0.3s; }
+  #navigation-bar .nav-link:hover {
+    color: whitesmoke;
+    transition: 0.3s; }
+  #navigation-bar .nav-link {
+    font-size: 1.1rem;
+    transition: 0.3s; }
+  #navigation-bar .nav-link.active {
+    color: #6610f2; }
+
+/*Hero Section */
+#hero {
+  background: #0dcaf0;
+  min-height: 100vh; }
+
+/*Section 1*/
+#sec1 {
+  background: #0b5ed7;
+  min-height: 100vh; }
+
+/*Section 2*/
+#sec2 #grid1 {
+  background: #0dcaf0;
+  min-height: 100vh; }
+#sec2 #grid2 {
+  background: #0d6efd;
+  min-height: 100vh; }
+#sec2 #grid3 {
+  background: #31d2f2;
+  min-height: 100vh; }
+#sec2 #grid4 {
+  background: #61dafb;
+  min-height: 100vh; }
+
+/* Section 3 */
+#carousel #color1 {
+  min-height: 100vh;
+  background: #6610f2; }
+#carousel #color2 {
+  min-height: 100vh;
+  background: #8138ff; }
+#carousel #color3 {
+  min-height: 100vh;
+  background: #b65fff; }
+
+#cards {
+  min-height: auto; }
+  #cards button {
+    border-radius: 50px; }
+  #cards .card, #cards .card-header {
+    border-radius: 2rem; }
+
+#parallax {
+  position: relative;
+  background-image: url(../images/image8.jpg);
+  min-height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #parallax #overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+
+@media screen and (max-width: 992px) {
+  /*#hero {
+    background: #0dcaf0;
+    min-height: auto;
+  }*/ }
+@media screen and (max-width: 600px) {
+  /*#hero {
+    background: #0dcaf0;
+    min-height: auto;
+  }*/ }
+
+/*# sourceMappingURL=custom.css.map */

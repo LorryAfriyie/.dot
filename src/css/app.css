@@ -1,0 +1,208 @@
+/* Fonts */
+@font-face {
+  font-family: Poppins-Regular;
+  src: url("../fonts/poppins/Poppins-Regular.ttf"); }
+/*General Styles*/
+html {
+  scroll-behavior: smooth;
+  font-family: 'Poppins-Regular', serif; }
+
+body {
+  overflow-x: hidden; }
+
+/*Navigation Menu*/
+#navigation-bar {
+  background-color: #9376db; }
+  #navigation-bar #nav-title {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #ffffff;
+    transition: 0.3s; }
+  #navigation-bar #nav-title:hover {
+    color: #6610f2;
+    transition: 0.3s; }
+  #navigation-bar #main-title {
+    transition: 0.3s; }
+  #navigation-bar #main-title:hover {
+    color: #6610f2;
+    transition: 0.3s; }
+  #navigation-bar .nav-link:hover {
+    color: whitesmoke;
+    transition: 0.3s; }
+  #navigation-bar .nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: 0.3s; }
+  #navigation-bar .nav-link.active {
+    color: #6610f2; }
+
+/*Hero Section */
+#hero {
+  background: url("../images/pexels-fauxels-3184464.jpg") bottom center/cover no-repeat;
+  min-height: 100vh; }
+  #hero h1 {
+    line-height: 0.8; }
+  #hero h1, #hero h3 {
+    text-shadow: 1px 1px 4px black; }
+  #hero #overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 112%;
+    z-index: 1; }
+
+/*Section 1*/
+#sec1 {
+  min-height: 90vh; }
+  #sec1 #about-text {
+    line-height: 2; }
+  #sec1 img {
+    margin: 0 auto;
+    width: 300px;
+    height: 300px; }
+
+/*Section 2*/
+#sec2 h1 {
+  text-shadow: 2px 2px 4px black;
+  line-height: 0.9; }
+#sec2 #grid1 {
+  background: url("../images/pexels-christina-morillo-1181244.jpg") bottom center/cover no-repeat;
+  min-height: 100vh;
+  transition: transform .2s; }
+#sec2 #grid1:hover {
+  transform: scale(1.1); }
+#sec2 #grid2 {
+  background: url("../images/pexels-alexander-dummer-134469.jpg") bottom center/cover no-repeat;
+  min-height: 100vh;
+  transition: transform .2s; }
+#sec2 #grid2:hover {
+  transform: scale(1.1); }
+#sec2 #grid3 {
+  background: url("../images/pexels-kaboompics-com-6444.jpg") bottom center/cover no-repeat;
+  min-height: 100vh;
+  transition: transform .2s; }
+#sec2 #grid3:hover {
+  transform: scale(1.1); }
+#sec2 #grid4 {
+  background: url("../images/pexels-negative-space-160107.jpg") bottom center/cover no-repeat;
+  min-height: 100vh;
+  transition: transform .2s; }
+#sec2 #grid4:hover {
+  transform: scale(1.1); }
+
+/* Section 3 */
+#carousel #color1 {
+  min-height: 100vh;
+  background: #6610f2; }
+#carousel #color2 {
+  min-height: 100vh;
+  background: #8138ff; }
+#carousel #color3 {
+  min-height: 100vh;
+  background: #b65fff; }
+#carousel img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%; }
+
+#cards {
+  min-height: auto; }
+  #cards button {
+    border-radius: 50px; }
+  #cards .card, #cards .card-header {
+    border-radius: 2rem; }
+  #cards #pricing-card-text {
+    line-height: 2;
+    font-weight: 100; }
+
+#parallax {
+  position: relative;
+  background-image: url(../images/pexels-fauxels-3183197.jpg);
+  min-height: 80vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #parallax #overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; }
+  #parallax h1 {
+    text-shadow: 1px 1px 4px black; }
+
+#newsletter #social-media h1 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 100; }
+#newsletter #social-media #social #facebook:hover {
+  color: royalblue; }
+#newsletter #social-media #social #instagram:hover {
+  color: hotpink; }
+#newsletter #social-media #social #twitter:hover {
+  color: dodgerblue; }
+
+#team button {
+  border-radius: 50px; }
+#team img {
+  height: 200px;
+  width: 200px; }
+#team .card, #team .card-header {
+  border-radius: 2rem; }
+  #team .card h3, #team .card-header h3 {
+    font-weight: 100;
+    color: #0d6efd; }
+#team .bio p {
+  line-height: 1; }
+
+#footer {
+  background: #0d6efd;
+  /*  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  
+      li {
+        padding-bottom: 3px;
+      }
+  
+    }*/ }
+  #footer h1 {
+    font-weight: 200; }
+  #footer hr {
+    border: 2px solid; }
+  #footer p {
+    font-weight: 100; }
+  #footer #footer-text {
+    line-height: 1.7; }
+  #footer a {
+    font-weight: 100; }
+  #footer a:link {
+    color: #ffffff;
+    text-decoration: none; }
+  #footer a:visited {
+    color: #ffffff;
+    text-decoration: none; }
+  #footer a:hover {
+    text-decoration: underline; }
+  #footer a:active {
+    text-decoration: underline; }
+
+@media screen and (max-width: 992px) {
+  /*#hero {
+    background: #0dcaf0;
+    min-height: auto;
+  }*/ }
+@media screen and (max-width: 600px) {
+  /*#hero {
+    background: #0dcaf0;
+    min-height: auto;
+  }*/ }
+
+/*# sourceMappingURL=app.css.map */
